@@ -1,0 +1,14 @@
+#+TITLE: Jackson's build of Slock
+Slock - The Suckless screen locker.
+* Patches
++ Capscolor - Shows a different color when capslock is on
++ DPMS - Autolocking after 5 minutes
++ Message - Displays a little message on screen when locked
+* Install
+#+BEGIN_SRC bash
+git clone https://gitlab.com/jadecell/slock.git
+cd slock/
+sudo make install
+#+END_SRC
+* Contribution
+If you want to contribute code, you are free to make a pull request. I will look over it and most likely accept it. I am just one guy and I think I could add some features.
